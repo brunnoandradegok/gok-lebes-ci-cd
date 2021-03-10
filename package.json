@@ -11,6 +11,9 @@
     "android:build-homolog": "cd android && ./gradlew clean && ./gradlew assembleRelease"
   },
   "dependencies": {
+    "appcenter": "4.0.2",
+    "appcenter-analytics": "4.0.2",
+    "appcenter-crashes": "4.0.2",
     "react": "16.13.1",
     "react-native": "0.63.4"
   },
