@@ -151,36 +151,25 @@ android {
             keyPassword 'android'
         }
         release {
-            // if (project.hasProperty('app/gok-lebes-ci-cd.keystore')) {
-            //     storeFile file('app/gok-lebes-ci-cd.keystore')
-            //     storePassword "gok123"
-            //     keyAlias "gok-lebes"
-            //     keyPassword "gok123"
-            // }
-            releaseSigningConfig {
-                storeFile rootProject.file("app/gok-lebes-ci-cd.keystore")
-                storePassword System.getProperty("gok123")
-                keyAlias System.getProperty("gok-lebes")
-                keyPassword System.getProperty("gok123")
+            if (project.hasProperty('app/gok-lebes-ci-cd.keystore')) {
+                storeFile file('app/gok-lebes-ci-cd.keystore')
+                storePassword "gok123"
+                keyAlias "gok-lebes"
+                keyPassword "gok123"
             }
         }
     }
-    // buildTypes {
-    //     debug {
-    //         signingConfig signingConfigs.debug
-    //     }
-    //     release {
-    //         // Caution! In production, you need to generate your own keystore file.
-    //         // see https://reactnative.dev/docs/signed-apk-android.
-    //         signingConfig signingConfigs.debug
-    //         signingConfig signingConfigs.release
-    //         minifyEnabled enableProguardInReleaseBuilds
-    //         proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
-    //     }
-    // }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.debug
+        }
         release {
-            signingConfig signingConfigs.releaseSigningConfig
+            // Caution! In production, you need to generate your own keystore file.
+            // see https://reactnative.dev/docs/signed-apk-android.
+            signingConfig signingConfigs.debug
+            signingConfig signingConfigs.release
+            minifyEnabled enableProguardInReleaseBuilds
+            proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
 
