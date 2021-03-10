@@ -11,15 +11,15 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2392A0CE6A96EE4F6D24A5A4 /* libPods-gok_lebes_ci_cd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CD7018490434856E94EF1DF /* libPods-gok_lebes_ci_cd.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* gok_lebes_ci_cdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* gok_lebes_ci_cdTests.m */; };
-		3A0438E173C0130F4B9B001D /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD218C7A747F236ED2F1D8D7 /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */; };
-		41A71C344618A049507E9147 /* libPods-gok_lebes_ci_cd-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ABB319F1ED9B189DE95462A /* libPods-gok_lebes_ci_cd-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9BECACB0FD97ACF42F94DFBD /* libPods-gok_lebes_ci_cd-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 403CD931336543C76C3A5C2E /* libPods-gok_lebes_ci_cd-tvOS.a */; };
-		B86434460040AAAE7184B089 /* libPods-gok_lebes_ci_cd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B5B8D39115C77B8DFC46EFE /* libPods-gok_lebes_ci_cd.a */; };
+		89E494525D518231CF885EC8 /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3AF269AEFA5D21DB2A58BBE /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */; };
+		925711CDE213DE44FD1D185A /* libPods-gok_lebes_ci_cd-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC56A1113D826F9BDCC5B0A8 /* libPods-gok_lebes_ci_cd-tvOSTests.a */; };
+		B7FDD975059B13FF007812F2 /* libPods-gok_lebes_ci_cd-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 456E236E303A574376AA0A56 /* libPods-gok_lebes_ci_cd-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,29 +44,29 @@
 		00E356EE1AD99517003FC87E /* gok_lebes_ci_cdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gok_lebes_ci_cdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* gok_lebes_ci_cdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gok_lebes_ci_cdTests.m; sourceTree = "<group>"; };
-		0ABB319F1ED9B189DE95462A /* libPods-gok_lebes_ci_cd-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD7018490434856E94EF1DF /* libPods-gok_lebes_ci_cd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E4188012F4B09385DF7D21C /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* gok_lebes_ci_cd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gok_lebes_ci_cd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = gok_lebes_ci_cd/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = gok_lebes_ci_cd/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = gok_lebes_ci_cd/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = gok_lebes_ci_cd/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = gok_lebes_ci_cd/main.m; sourceTree = "<group>"; };
-		2B5B8D39115C77B8DFC46EFE /* libPods-gok_lebes_ci_cd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		208A8FBC963F5B5204B7454B /* Pods-gok_lebes_ci_cd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* gok_lebes_ci_cd-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gok_lebes_ci_cd-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* gok_lebes_ci_cd-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gok_lebes_ci_cd-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		330005FBE19B4F9D87D9C631 /* Pods-gok_lebes_ci_cd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd.release.xcconfig"; sourceTree = "<group>"; };
-		403CD931336543C76C3A5C2E /* libPods-gok_lebes_ci_cd-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB9B767BC10142B76BE841A /* Pods-gok_lebes_ci_cd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd.debug.xcconfig"; sourceTree = "<group>"; };
-		650633C06BB84F3B7927899F /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOS/Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		456E236E303A574376AA0A56 /* libPods-gok_lebes_ci_cd-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74BB0AD50816C1111E77ABEF /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOSTests/Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = gok_lebes_ci_cd/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8BC754A2BFFC234B4061A921 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOS/Pods-gok_lebes_ci_cd-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B32666D914D139CD6A1BBA89 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig"; sourceTree = "<group>"; };
-		BC226F6380B5E19B2C476197 /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOSTests/Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		BE9F8901EE8E75C78211E1F4 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C336029537DDDFC9E6ADBAF1 /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOSTests/Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		DD218C7A747F236ED2F1D8D7 /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88AC27A9CDA00A03DD3B759F /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOSTests/Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B03225B4CC24E7017CC97EC6 /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOS/Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B3AF269AEFA5D21DB2A58BBE /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B436D45986E2E3F20579290D /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC56A1113D826F9BDCC5B0A8 /* libPods-gok_lebes_ci_cd-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gok_lebes_ci_cd-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A6E8A838611FBA2CC5C447 /* Pods-gok_lebes_ci_cd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd.debug.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F5E8B043EA4178066AF6A4A4 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gok_lebes_ci_cd-tvOS.release.xcconfig"; path = "Target Support Files/Pods-gok_lebes_ci_cd-tvOS/Pods-gok_lebes_ci_cd-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A0438E173C0130F4B9B001D /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a in Frameworks */,
+				89E494525D518231CF885EC8 /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B86434460040AAAE7184B089 /* libPods-gok_lebes_ci_cd.a in Frameworks */,
+				2392A0CE6A96EE4F6D24A5A4 /* libPods-gok_lebes_ci_cd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BECACB0FD97ACF42F94DFBD /* libPods-gok_lebes_ci_cd-tvOS.a in Frameworks */,
+				B7FDD975059B13FF007812F2 /* libPods-gok_lebes_ci_cd-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41A71C344618A049507E9147 /* libPods-gok_lebes_ci_cd-tvOSTests.a in Frameworks */,
+				925711CDE213DE44FD1D185A /* libPods-gok_lebes_ci_cd-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				2B5B8D39115C77B8DFC46EFE /* libPods-gok_lebes_ci_cd.a */,
-				DD218C7A747F236ED2F1D8D7 /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */,
-				403CD931336543C76C3A5C2E /* libPods-gok_lebes_ci_cd-tvOS.a */,
-				0ABB319F1ED9B189DE95462A /* libPods-gok_lebes_ci_cd-tvOSTests.a */,
+				0CD7018490434856E94EF1DF /* libPods-gok_lebes_ci_cd.a */,
+				B3AF269AEFA5D21DB2A58BBE /* libPods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.a */,
+				456E236E303A574376AA0A56 /* libPods-gok_lebes_ci_cd-tvOS.a */,
+				BC56A1113D826F9BDCC5B0A8 /* libPods-gok_lebes_ci_cd-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* gok_lebes_ci_cdTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				D860F83D7251385CEA2F6387 /* Pods */,
+				9F2AA9CD89A34DBD7432225A /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,17 +182,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D860F83D7251385CEA2F6387 /* Pods */ = {
+		9F2AA9CD89A34DBD7432225A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5EB9B767BC10142B76BE841A /* Pods-gok_lebes_ci_cd.debug.xcconfig */,
-				330005FBE19B4F9D87D9C631 /* Pods-gok_lebes_ci_cd.release.xcconfig */,
-				BE9F8901EE8E75C78211E1F4 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */,
-				B32666D914D139CD6A1BBA89 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */,
-				650633C06BB84F3B7927899F /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */,
-				8BC754A2BFFC234B4061A921 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */,
-				BC226F6380B5E19B2C476197 /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */,
-				C336029537DDDFC9E6ADBAF1 /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */,
+				C6A6E8A838611FBA2CC5C447 /* Pods-gok_lebes_ci_cd.debug.xcconfig */,
+				208A8FBC963F5B5204B7454B /* Pods-gok_lebes_ci_cd.release.xcconfig */,
+				0E4188012F4B09385DF7D21C /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */,
+				B436D45986E2E3F20579290D /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */,
+				B03225B4CC24E7017CC97EC6 /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */,
+				F5E8B043EA4178066AF6A4A4 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */,
+				88AC27A9CDA00A03DD3B759F /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */,
+				74BB0AD50816C1111E77ABEF /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -205,12 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "gok_lebes_ci_cdTests" */;
 			buildPhases = (
-				5481D0CE7FEB34CE74EE9A6C /* [CP] Check Pods Manifest.lock */,
+				4B4BEE180E2F4F4A2BE69934 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				05DF7C7928F435F96AED08F2 /* [CP] Embed Pods Frameworks */,
-				8C420FEA68CFAD2BEDE52318 /* [CP] Copy Pods Resources */,
+				40D10749D35D8D0C1437E45D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,14 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "gok_lebes_ci_cd" */;
 			buildPhases = (
-				824430509DB088972A6553F8 /* [CP] Check Pods Manifest.lock */,
+				E64A905A658AB7E8988E87A2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				0B215D86DCE921DC886921D0 /* [CP] Embed Pods Frameworks */,
-				D07B6C128F124D5F6A418EDA /* [CP] Copy Pods Resources */,
+				01C39809808B4CB94B4B1933 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gok_lebes_ci_cd-tvOS" */;
 			buildPhases = (
-				BFCB3C616E2021787B6B5144 /* [CP] Check Pods Manifest.lock */,
+				3AD27D3AAA04CCC42AC555F7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -268,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "gok_lebes_ci_cd-tvOSTests" */;
 			buildPhases = (
-				16161C4EB0B3F153855AA911 /* [CP] Check Pods Manifest.lock */,
+				9C74466D024D45A319FEFAF2 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -379,62 +377,22 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		05DF7C7928F435F96AED08F2 /* [CP] Embed Pods Frameworks */ = {
+		01C39809808B4CB94B4B1933 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
+				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0B215D86DCE921DC886921D0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		16161C4EB0B3F153855AA911 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
@@ -451,69 +409,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		5481D0CE7FEB34CE74EE9A6C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		824430509DB088972A6553F8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8C420FEA68CFAD2BEDE52318 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFCB3C616E2021787B6B5144 /* [CP] Check Pods Manifest.lock */ = {
+		3AD27D3AAA04CCC42AC555F7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -535,13 +431,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D07B6C128F124D5F6A418EDA /* [CP] Copy Pods Resources */ = {
+		40D10749D35D8D0C1437E45D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -550,7 +446,73 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd/Pods-gok_lebes_ci_cd-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B4BEE180E2F4F4A2BE69934 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C74466D024D45A319FEFAF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64A905A658AB7E8988E87A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gok_lebes_ci_cd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -646,7 +608,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE9F8901EE8E75C78211E1F4 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */;
+			baseConfigurationReference = 0E4188012F4B09385DF7D21C /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -669,7 +631,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B32666D914D139CD6A1BBA89 /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */;
+			baseConfigurationReference = B436D45986E2E3F20579290D /* Pods-gok_lebes_ci_cd-gok_lebes_ci_cdTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -689,7 +651,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EB9B767BC10142B76BE841A /* Pods-gok_lebes_ci_cd.debug.xcconfig */;
+			baseConfigurationReference = C6A6E8A838611FBA2CC5C447 /* Pods-gok_lebes_ci_cd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -712,7 +674,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 330005FBE19B4F9D87D9C631 /* Pods-gok_lebes_ci_cd.release.xcconfig */;
+			baseConfigurationReference = 208A8FBC963F5B5204B7454B /* Pods-gok_lebes_ci_cd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -733,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 650633C06BB84F3B7927899F /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */;
+			baseConfigurationReference = B03225B4CC24E7017CC97EC6 /* Pods-gok_lebes_ci_cd-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -761,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BC754A2BFFC234B4061A921 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */;
+			baseConfigurationReference = F5E8B043EA4178066AF6A4A4 /* Pods-gok_lebes_ci_cd-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -789,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC226F6380B5E19B2C476197 /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 88AC27A9CDA00A03DD3B759F /* Pods-gok_lebes_ci_cd-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -816,7 +778,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C336029537DDDFC9E6ADBAF1 /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 74BB0AD50816C1111E77ABEF /* Pods-gok_lebes_ci_cd-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
