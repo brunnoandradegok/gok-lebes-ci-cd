@@ -157,6 +157,12 @@ android {
                 keyAlias "gok-lebes"
                 keyPassword "gok123"
             }
+            releaseSigningConfig {
+                storeFile rootProject.file("app/gok-lebes-ci-cd.keystore")
+                storePassword System.getProperty("gok123")
+                keyAlias System.getProperty("gok-lebes")
+                keyPassword System.getProperty("gok123")
+            }
         }
     }
     buildTypes {
@@ -170,6 +176,11 @@ android {
             signingConfig signingConfigs.release
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+        }
+    }
+    buildTypes {
+        release {
+            signingConfig signingConfigs.releaseSigningConfig
         }
     }
 
